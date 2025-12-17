@@ -33,8 +33,6 @@ $projecten = [
     <meta charset="UTF-8">
     <title>Portfolio | <?php echo htmlspecialchars($naam); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Tailwind Play CDN (v4 browser build) -->
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> <!-- [web:40] -->
 </head>
 <body class="bg-slate-950 text-slate-100 antialiased">
 
