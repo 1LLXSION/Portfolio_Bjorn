@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  portfolio:
+    build: .
+    container_name: bjorn-portfolio
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    environment:
+      - PHP_MEMORY_LIMIT=256M
+    restart: unless-stopped
